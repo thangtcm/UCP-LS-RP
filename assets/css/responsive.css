@@ -11,4 +11,24 @@
 	.card-footer {
 		padding: .75rem 1.25rem;
 	}
+	.d-none
+	{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/* CSS code cho thiết bị có độ rộng màn hình nhỏ hơn 768px */
+  }
+  
+@media screen and (min-width: 768px) and (max-width: 991px) {
+/* CSS code cho thiết bị có độ rộng màn hình trong khoảng từ 768px đến 991px */
+}
+  
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* CSS code cho thiết bị có độ rộng màn hình trong khoảng từ 992px đến 1199px */
+}
+  
+@media screen and (min-width: 1200px) {
+/* CSS code cho thiết bị có độ rộng màn hình lớn hơn hoặc bằng 1200px */
 }

@@ -4,23 +4,18 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-html{
-    font-family: "Josenfin Sans";
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body, html{
+    margin: 0;
+    font-family: 'Josefin Sans', "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     height: 100%;
-}
-
-body {
-    margin: 0;
-    font-family: 'Josefin Sans', "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff; 
 }
 
 a {
@@ -79,11 +74,11 @@ a {
 
 .img-character
 {
-object-fit: cover;
-transition: transform 0.3s ease-out;
-max-width: 90%;
-height: auto; 
-background-clip: content-box;
+  object-fit: cover;
+  transition: transform 0.3s ease-out;
+  max-width: 90%;
+  height: auto; 
+  background-clip: content-box;
 }
 
 input[type=text],
