@@ -157,7 +157,32 @@ select.form-control {
     border: 1px solid transparent;
 }
 
+.btn-login:hover
+{
+  background: 
+    linear-gradient(white 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #3A7196, #368AC2) border-box;
+  color: #368AC2;
+  border: 1.5px solid transparent;
+  border-radius: 0.5rem;
+}
 
+.btn-register{
+  color: white;
+  background: linear-gradient(#963A3A, #C23636) padding-box,
+            linear-gradient(to right, #963A3A, #C23636) border-box;
+  border: 1px solid transparent;
+}
+
+.btn-register:hover
+{
+  background: 
+    linear-gradient(white 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, #963A3A, #C23636) border-box;
+  color: #C23636;
+  border: 1.5px solid transparent;
+  border-radius: 0.5rem;
+}
   /* Hover */
 
 .hover-zoom:hover {
